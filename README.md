@@ -1,9 +1,9 @@
-#Movie Trailer Website
+#Movie Trailer Website#
 ======================
 
  Movie trailer website is a program that renders a website with clickable links to the movies trailer.
 
- ##Usage
+ ##Usage##
 
   To run the code
    * download the [repository](https://github.com/joshtls/movies) 
@@ -11,7 +11,7 @@
 
      The `media` and `entertainment_center` files need to be stored in the same directory as `fresh_tomatoes.py`
    
-##License
+##License##
 
  This a school project with open licensing   
 
