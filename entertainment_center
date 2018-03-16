@@ -1,0 +1,16 @@
+import fresh_tomatoes
+import media      #defines the class Movie
+
+
+movie_1 = media.Movie("title",                  # The title of your movie
+                     "synopsis",                # The movie synopsis
+                     "Box art",                 # The link to your movie poster image 
+                     "you tube trailer link")   # The link to the youtube trailer
+
+# Copy code above for each movie to be listed
+
+
+                           
+
+movies = [movie_1, movie_2,...]  # This list defines the movies that will be included on the website
+fresh_tomatoes.open_movies_page(movies)
