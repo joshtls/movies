@@ -1,0 +1,41 @@
+import fresh_tomatoes
+import media      #defines the class Movie
+
+
+fifth_element = media.Movie("Fifth Element", 
+                            "As the embodiment of the fifth element,"
+                            "Leeloo needs to combine with the other four to keep the approaching Great Evil from destroying the world. ",
+                            "http://img.moviepostershop.com/the-fifth-element-movie-poster-1997-1020260276.jpg",
+                            "https://www.youtube.com/watch?v=fQ9RqgcR24g") #this code identifies the title, synopsis, and links for this instance
+
+avatar = media.Movie("Avatar",
+                     "A marine on an alien planet",
+                     "https://cdn.cinematerial.com/p/297x/yonz5gr7/avatar-theatrical-poster-md.jpg",
+                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+
+rounders = media.Movie("Rounders",
+                       "A New York poker player finds out he owes money to the mob because of his friend",
+                       "http://img.moviepostershop.com/rounders-movie-poster-1998-1020349809.jpg",
+                       "https://www.youtube.com/watch?v=-Qv4K-4-FZM")
+
+guide_to_galaxy = media.Movie("Hitchhikers Guide To The Galaxy",
+                              "Arthur makes his way across the stars while seeking the meaning of life, or something close to it.",
+                              "https://upload.wikimedia.org/wikipedia/commons/2/22/Expedition_42_%27The_Hitchhiker%27s_Guide_to_the_Galaxy%27_crew_poster.jpg",
+                              "https://www.youtube.com/watch?v=eLdiWe_HJv4")
+
+pacific_rim = media.Movie("Pacific Rim",
+                          "To fight the Kaiju, mankind developed giant robots called Jaegers, designed to be piloted by two humans locked together in a neural bridge.",
+                          "http://images6.fanpop.com/image/photos/35100000/Otachi-movie-poster-pacific-rim-35189672-670-960.jpg",
+                          "https://www.youtube.com/watch?v=5guMumPFBag")
+
+transformers = media.Movie("Transformers",
+                           "The fate of humanity is at stake when two races of robots, the good Autobots and the villainous Decepticons, bring their war to Earth",
+                           "https://media-cache.cinematerial.com/p/500x/np2qyhpi/transformers-movie-poster.jpg",
+                           "https://www.youtube.com/watch?v=zX81c2vycKo")
+
+
+
+                           
+
+movies = [fifth_element, avatar, rounders, guide_to_galaxy, pacific_rim, transformers]
+fresh_tomatoes.open_movies_page(movies)
