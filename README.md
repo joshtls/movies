@@ -8,6 +8,7 @@
   To run the code
    * download the [repository](https://github.com/joshtls/movies) 
    * Edit the `entertainment_center.py` file for your favorite movies
+   * To see a working example use `Title_shot` 
 
      The `media` and `entertainment_center` files need to be stored in the same directory as `fresh_tomatoes.py`
    
